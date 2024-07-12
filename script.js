@@ -10,4 +10,9 @@ for (let i = 0; i <= allLi.length; i++) {
 }
 
 const lists = document.getElementById("name-serial").style.fontSize ="20px"
-console.log(lists);
+// console.log(lists);
+
+const liAdd = document.getElementById('li-list');
+const li = document.createElement("li");
+li.innerText="helo tuin";
+liAdd.appendChild(li)
