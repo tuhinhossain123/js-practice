@@ -9,6 +9,5 @@ for (let i = 0; i <= allLi.length; i++) {
 //   console.log(index);
 }
 
-const lists = document.getElementById("name-serial")
-lists.innerText="Name Change";
+const lists = document.getElementById("name-serial").style.fontSize ="20px"
 console.log(lists);
