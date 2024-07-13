@@ -1,1 +1,3 @@
-console.log('dom er event');
+function makeRed(){
+document.body.style.backgroundColor='green'
+}
